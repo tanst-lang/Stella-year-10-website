@@ -32,11 +32,13 @@ h3{
 ul{
 font-family: 'Lucida Console medium';
 font-size: smaller;
-letter-spacing: -0.7px ;
+font-stretch: condensed;
 }
 
 ol{
-
+font-family: 'Lucida Console medium';
+font-stretch: condensed;
+font-size: smaller;
 }
 
 hr{
