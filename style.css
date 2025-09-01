@@ -1,1 +1,44 @@
+body{
 
+}
+.button {
+background-color: blue;
+color: white;
+border-style: solid;
+border-radius: 10px;
+border-color: rgb(2, 2, 136);
+text-decoration: none;
+}
+.copyright{
+    color: black;
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium';
+}
+p{
+font-family: 'Franklin Gothic Medium';
+}
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+ul{
+font-family: 'Lucida Console medium';
+font-size: smaller;
+letter-spacing: -0.7px ;
+}
+
+ol{
+
+}
+
+hr{
+
+}
