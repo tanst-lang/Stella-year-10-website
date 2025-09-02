@@ -14,6 +14,10 @@ text-decoration: none;
     font-size: x-small;
     font-family: 'Franklin Gothic Medium';
 }
+.header{
+    border: 2px, ;
+    background-image: url('caves_and_cliffs_background.png');
+}
 p{
 font-family: 'Franklin Gothic Medium';
 }
