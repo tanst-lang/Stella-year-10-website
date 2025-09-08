@@ -26,33 +26,45 @@ text-decoration: none;
     color: white;
     -webkit-text-stroke: 1px black;
 }
+.note{
+    font-family:minecraft;
+     src:url(minecraft.ttf);
+    font-size: x-small;
+}
 p{
-font-family: 'Franklin Gothic Medium';
+    font-family:minecraft;
+     src:url(Minecraft.ttf);
 }
 h1{
-
+    font-family:header ;
 }
 
 h2{
-
+   font-family: header;
 }
 
 h3{
+font-family:header;
 
 }
 
 ul{
-font-family: 'Lucida Console medium';
-font-size: smaller;
-font-stretch: condensed;
+font-family: minecraft;
 }
 
 ol{
-font-family: 'Lucida Console medium';
-font-stretch: condensed;
-font-size: smaller;
+font-family: minecraft;
+font-size: -2px;
 }
+@font-face {
+    font-family: minecraft;
+    src: url(Minecraft.ttf);
 
+}
+@font-face {
+    font-family: header;
+    src: url(minecrafter.ttf);
+}
 hr{
 
 }
