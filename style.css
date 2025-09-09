@@ -21,7 +21,7 @@ text-decoration: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100px;
+    height: 200px;
     text-align: center;
     align-content: center;
     color: white;
@@ -31,24 +31,66 @@ text-decoration: none;
             -2px 2px 0 black,  
             2px 2px 0 black;  
     letter-spacing: 2px;
+    font-size: xx-large;
     
 }
 .note{
     font-family:minecraft;
-     src:url(minecraft.ttf);
     font-size: x-small;
 }
-.page_link{
+.page_link1{
     border: 2px black solid;
+    height: 170px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-size: x-large;
+    background-image:url(surface-level.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        color: rgb(121, 77, 36);
+    text-shadow:
+            -1px -1px 0 rgb(64, 114, 6),  
+            -1px 1px 0 rgb(64, 114, 6),
+            1px -1px 0 rgb(64, 114, 6), 
+            1px 1px 0 rgb(64, 114, 6),
+            0px 5px 0 black;
+
+    letter-spacing: 3px;
+}
+.page_link2{
+    border: 2px black solid;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-size: x-large;
+    background-image: url(ore-level.png);
+    color: ;
+}
+.page_link3{
+    border: 2px black solid;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-size: x-large;
+}
+.page_link4{
+    border: 2px black solid;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-size: x-large;
+}
+a{
     text-decoration: none;
     color: black;
-    height: 50px;
-    text-align: center;
-    justify-content: center;
 }
 p{
     font-family:minecraft;
-     src:url(Minecraft.ttf);
 }
 h1{
     font-family:header ;
@@ -59,7 +101,7 @@ h2{
 }
 
 h3{
-font-family:header;
+  font-family:header;
 
 }
 
@@ -79,6 +121,7 @@ font-size: -2px;
 @font-face {
     font-family: header;
     src: url(minecrafter.ttf);
+    font-size: larger;
 }
 hr{
 
