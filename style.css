@@ -51,11 +51,11 @@ text-decoration: none;
     background-position: center;
         color: rgb(121, 77, 36);
     text-shadow:
-            -1px -1px 0 rgb(64, 114, 6),  
-            -1px 1px 0 rgb(64, 114, 6),
-            1px -1px 0 rgb(64, 114, 6), 
-            1px 1px 0 rgb(64, 114, 6),
-            0px 5px 0 black;
+            -1px -1px 0 rgb(147, 192, 97),  
+            -1px 1px 0 rgb(114, 181, 75),
+            1px -1px 0 rgb(99, 163, 53), 
+            1px 1px 0 rgb(96, 159, 54),
+            -1px 5px 0 black;
 
     letter-spacing: 3px;
 }
@@ -67,7 +67,14 @@ text-decoration: none;
     justify-content: center;
     font-size: x-large;
     background-image: url(ore-level.png);
-    color: ;
+    color: rgb(112, 111, 110);
+    text-shadow:
+            -1px -1px 0 rgb(211, 251, 251),  
+            -1px 1px 0 rgb(78, 213, 206),
+            1px -1px 0 rgb(102, 181, 178), 
+            1px 1px 0 rgb(44, 183, 164),
+            -1px 5px 0 black;
+
 }
 .page_link3{
     border: 2px black solid;
@@ -76,6 +83,13 @@ text-decoration: none;
     align-content: center;
     justify-content: center;
     font-size: x-large;
+    color: rgb(150, 68, 66);
+    text-shadow: 
+            1px -1px 0 rgb(99, 41, 40),  
+            -1px 1px 0 rgb(81, 19, 21),
+            1px -1px 0 rgb(78, 28, 27), 
+            1px 1px 0 rgb(64, 23, 23),
+            -1px 5px 0 black;
 }
 .page_link4{
     border: 2px black solid;
@@ -87,7 +101,6 @@ text-decoration: none;
 }
 a{
     text-decoration: none;
-    color: black;
 }
 p{
     font-family:minecraft;
