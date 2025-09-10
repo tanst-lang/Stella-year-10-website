@@ -1,6 +1,5 @@
-body{
 
-}
+
 .button {
 background-color: blue;
 color: white;
@@ -61,12 +60,14 @@ text-decoration: none;
 }
 .page_link2{
     border: 2px black solid;
-    height: 100px;
+    height: 170px;
     text-align: center;
     align-content: center;
     justify-content: center;
     font-size: x-large;
     background-image: url(ore-level.png);
+    background-size: cover;
+    background-position: center;
     color: rgb(112, 111, 110);
     text-shadow:
             -1px -1px 0 rgb(211, 251, 251),  
@@ -78,12 +79,16 @@ text-decoration: none;
 }
 .page_link3{
     border: 2px black solid;
-    height: 100px;
+    height: 170px;
     text-align: center;
     align-content: center;
     justify-content: center;
     font-size: x-large;
-    color: rgb(150, 68, 66);
+    background-image: url(nether.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(173, 51, 49);
     text-shadow: 
             1px -1px 0 rgb(99, 41, 40),  
             -1px 1px 0 rgb(81, 19, 21),
@@ -93,11 +98,23 @@ text-decoration: none;
 }
 .page_link4{
     border: 2px black solid;
-    height: 100px;
+    height: 170px;
     text-align: center;
     align-content: center;
     justify-content: center;
     font-size: x-large;
+    background-image: url(end.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(237, 243, 182);
+    text-shadow: 
+            1px -1px 0 rgb(123, 129, 59),  
+            -1px 1px 0 rgb(123, 129, 59),
+            1px -1px 0  rgb(123, 129, 59),
+            1px 1px 0 rgb(123, 129, 59),
+            -1px 5px 0 black;
+    letter-spacing: 3px;
 }
 a{
     text-decoration: none;
@@ -137,5 +154,21 @@ font-size: -2px;
     font-size: larger;
 }
 hr{
-
+max-height: 3px;
+min-width: 200px;
+margin-left: 0px;
+margin-right: 0px;
+display: block;
+}
+.icon{
+    max-height: 70px;
+    display: block;
+}
+.line{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-items: stretch;
+    
 }
