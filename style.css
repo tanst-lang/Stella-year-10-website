@@ -180,10 +180,12 @@ ol{
 .buttons{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: space-evenly;
-    justify-content: center;
+    justify-content: space-between;
+    height: 250px;
 }
 .button-icons{
     width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
