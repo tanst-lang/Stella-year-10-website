@@ -109,7 +109,7 @@ text-decoration: none;
     background-repeat: no-repeat;
     color: rgb(237, 243, 182);
     text-shadow: 
-            1px -1px 0 rgb(123, 129, 59),  
+         1px -1px 0 rgb(123, 129, 59),  
             -1px 1px 0 rgb(123, 129, 59),
             1px -1px 0  rgb(123, 129, 59),
             1px 1px 0 rgb(123, 129, 59),
@@ -136,12 +136,12 @@ h3{
 }
 
 ul{
-font-family: minecraft;
+   font-family: minecraft;
 }
 
 ol{
-font-family: minecraft;
-font-size: -2px;
+   font-family: minecraft;
+   font-size: -2px;
 }
 @font-face {
     font-family: minecraft;
@@ -167,13 +167,23 @@ font-size: -2px;
 }
 
 .back-image{
-margin-left: 0px;
-margin-top: 0px;
-margin-bottom: 10px;
-width: 300px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 300px;
 }
 .words{
     text-align: center;
     font-size:x-large;
- color: black;
+    color: black;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-evenly;
+    justify-content: center;
+}
+.button-icons{
+    width: 500px;
 }
