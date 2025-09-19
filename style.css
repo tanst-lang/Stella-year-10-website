@@ -123,22 +123,36 @@ p{
     font-family:minecraft;
 }
 h1{
-    font-family:header ;
+    font-family:header;
+    text-align: center;
 }
 
 h2{
    font-family: header;
+   text-align: center;
 }
 
 h3{
   font-family:header;
-
+  text-align: center;
 }
 
 ul{
    font-family: minecraft;
+   list-style: none;
+   padding: 0;
 }
-
+li{
+    position: relative;
+    margin-left:50px;
+}
+:not(ol)> ul li::before{
+   content: url('arrow.png');
+   display: inline-block;
+   transform: rotate(45deg) scale(0.2);
+   position: absolute;
+   top:-65px; left: -95px;
+}
 ol{
    font-family: minecraft;
    font-size: -2px;
@@ -146,6 +160,7 @@ ol{
 @font-face {
     font-family: minecraft;
     src: url(Minecraft.ttf);
+    font-size: larger;
 
 }
 @font-face {
@@ -167,10 +182,9 @@ ol{
 }
 
 .back-image{
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 10px;
     width: 300px;
+    position: sticky;
+    top: 0;
 }
 .words{
     text-align: center;
