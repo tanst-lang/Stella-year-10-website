@@ -1,21 +1,13 @@
 
 
-.button {
-background-color: blue;
-color: white;
-border-style: solid;
-border-radius: 10px;
-border-color: rgb(2, 2, 136);
-text-decoration: none;
-}
 .copyright{
     color: black;
-    font-size: x-small;
-    font-family: 'Franklin Gothic Medium';
+    font-size: smaller;
+    font-family:sans-serif;
 }
 .header{
     border: 2px, black;
-    background-image: url('caves_and_cliffs_background.png');
+    background-image: url('background.webp');
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,32 +113,37 @@ a{
 }
 p{
     font-family:minecraft;
+    font-size: larger;
+    text-align: center;
 }
 h1{
     font-family:header;
     text-align: center;
+    font-size: 50px;
 }
 
 h2{
    font-family: header;
    text-align: center;
+   font-size: 40px;
 }
-
-h3{
-  font-family:header;
+h4{
+   font-family:header;
   text-align: center;
+  font-size: 20px;
 }
 
 ul{
    font-family: minecraft;
    list-style: none;
    padding: 0;
+   font-size: larger;
 }
 li{
     position: relative;
     margin-left:50px;
 }
-:not(ol)> ul li::before{
+li:not(ol li)::before{
    content: url('arrow.png');
    display: inline-block;
    transform: rotate(45deg) scale(0.2);
@@ -157,18 +154,23 @@ ol{
    font-family: minecraft;
    font-size: -2px;
 }
+dd{
+   font-family: minecraft;
+}
+dt{
+ font-family: header;
+ margin-top: 25px;
+ margin-left: 20px;
+ margin-bottom: 5px;
+}
 @font-face {
     font-family: minecraft;
     src: url(Minecraft.ttf);
-    font-size: larger;
-
 }
 @font-face {
     font-family: header;
     src: url(minecrafter.ttf);
-    font-size: larger;
 }
-
 .icon{
     width: 40px;
     display: block;
@@ -202,4 +204,37 @@ ol{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#tips-link{
+    font-family: minecraft;
+}
+#disclamer{
+    text-decoration: underline;
+    position: relative;
+    top:-10px;
+}
+#bottom-line{
+ position: relative;
+ top: 10px;
+}
+.inspo-list{
+    font-family: header;
+    font-size: larger;
+}
+.inspo-list-li{
+    margin-top: 20px;
+    position: relative;
+    margin-left:50px;
+}
+small{
+    font-size: 12px;
+    font-family: minecraft;
+}
+.dt-faq{
+    font-family: header;
+    text-align: center;
+}
+.dd-faq{
+    font-family: minecraft;
+    text-align: center;
 }
