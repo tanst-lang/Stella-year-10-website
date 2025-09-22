@@ -212,6 +212,7 @@ dt{
     text-decoration: underline;
     position: relative;
     top:-10px;
+    letter-spacing: 2px;
 }
 #bottom-line{
  position: relative;
